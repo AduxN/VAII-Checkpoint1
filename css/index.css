@@ -1,7 +1,84 @@
-body {
-    background-color: #1e1e1e
+@keyframes hovercolor {
+    0%   {color: #2E86C1;}
+    16%  {color: #17A589;}
+    33%  {color: #28B463;}
+    50%  {color: #D4AC0D;}
+    66%  {color: #28B463;}
+    83%  {color: #17A589;}
+    100% {color: #2E86C1;}
 }
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
+body {
+    background-color: #515A5A;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+* {
+    text-align: center;
+    font-family: Georgia, Garamond, serif;
     color: lightgrey;
+}
+/*mobile*/
+@media screen and (max-width: 600px) {
+    .menu {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style-type: none;
+        background-color: #1e1e1e;
+
+        margin-top: 0;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        row-gap: 24px;
+        overflow: hidden;
+    }
+}
+
+.menu {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    background-color: #1e1e1e;
+
+    margin-top: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    overflow: hidden;
+
+}
+.menu a {
+    font-size: larger;
+    font-weight: bold;
+    font-family: Georgia, Garamond, serif;
+    text-decoration: none;
+    color: #2E86C1;
+}
+.menu a:hover {
+    animation-name: hovercolor;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+
+h1 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 48px;
+}
+p {
+    display: flex;
+    align-items: center;
+    padding-left: 128px;
+    padding-right: 128px;
+    font-size: 24px;
+}
+.gaming_img {
+    border-radius: 2%;
+    max-width: 80%;
+    margin-top: 64px;
+    height: auto;
 }
