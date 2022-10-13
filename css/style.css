@@ -15,7 +15,7 @@ body {
 }
 * {
     text-align: center;
-    font-family: Georgia, Garamond, serif;
+    font-family: Ubuntu, serif;
     color: lightgrey;
 }
 /*mobile*/
@@ -54,7 +54,6 @@ body {
 .menu a {
     font-size: larger;
     font-weight: bold;
-    font-family: Georgia, Garamond, serif;
     text-decoration: none;
     color: #2E86C1;
 }
@@ -71,7 +70,6 @@ h1 {
 }
 p {
     display: flex;
-    align-items: center;
     padding-left: 10%;
     padding-right: 10%;
     font-size: 24px;
@@ -81,4 +79,10 @@ p {
     max-width: 80%;
     margin-top: 64px;
     height: auto;
+}
+
+iframe , .twitter-tweet {
+    max-width: 80%;
+    align-items: center;
+    margin: auto;
 }
