@@ -67,6 +67,7 @@ h1 {
     padding-top: 24px;
     padding-bottom: 24px;
     font-size: 48px;
+    color: #1e1e1e;
 }
 p {
     display: flex;
@@ -85,4 +86,24 @@ iframe , .twitter-tweet {
     max-width: 80%;
     align-items: center;
     margin: auto;
+}
+footer {
+    margin-top: 48px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+hr {
+    height: 2px;
+    background-color: #1e1e1e;
+    border: none;
+}
+.footer_text {
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer_text p {
+    padding: 0 5%;
+    margin: 5px 0 0;
+    font-size: 16px;
 }
